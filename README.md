@@ -9,3 +9,6 @@ By default your repository has one branch named main which is considered to be t
 When you create a branch off the main branch, you’re making a copy, or snapshot, of main as it was at that point in time. If someone else made changes to the main branch while you were working on your branch, you could pull in those updates.
 Our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our main (production) branch. When a change is ready, they merge their branch into main.
 Saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+Pull Requests are proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. 
+Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
